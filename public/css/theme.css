@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans:ital,wght@0,300;1,500&display=swap');
+
+.bg-light {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #212529;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00a08d;
+}
+
+.nav-link:hover {
+    color: #1da140;
+}
+
+body,
+html {
+    background: linear-gradient(to bottom, #3a6186, #89253e);
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+}
+
+.btn-primary {
+    background-color: #00ff3790;
+    background-image: linear-gradient(to bottom, #007bff, #0062cc);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to bottom, #f8f9fa, #f1f3f5);
+}
+
+table {
+    border: 1px solid rgb(170, 52, 52);
+    border-collapse: collapse;
+    box-shadow: 10px 10px 5px 0px rgba(60, 29, 29, 0.75);
+}
+
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Shantell Sans', sans-serif;
+    font-weight: 700;
+    color: #212529;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #0aa167;
+}
+
+a:hover {
+    color: #11662c;
+}
+
+legend,
+div {
+    font-family: 'Shantell Sans', sans-serif;
+    font-weight: 700;
+    color: #212529;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
